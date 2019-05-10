@@ -5,8 +5,7 @@
 }
 
 body {
-	background-image: url("../img/toilet1.png");
-	background-color: black;
+	background-color: lightcyan;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
@@ -41,6 +40,35 @@ h4 {
     
 }
 
+.painMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li.painMenu{
+    float: left;
+}
+
+li a.painMenu{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 288.6px;
+    text-decoration: underline;
+}
+
+li a.painMenu:hover:not(.active) {
+    background-color: #fee;
+}
+
+li a.active.painMenu{
+    color: white;
+    background-color: #3fa3af;
+}
+
 .subtitle {
 	color: #51ccdb;
 }
@@ -70,6 +98,15 @@ img.icon {
 	margin: 0 auto;
 }
 
+img.general_center{
+    padding-left: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+
+}
+
 img.general_right {
 	padding-left: 15px;
 	float: right;
@@ -83,8 +120,14 @@ img.general_left {
 	width: 25%;
 	height: 25%;
 }
+div#potty_menu{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
 
-div#wrapper {
+div#pain_wrapper {
 	width: 85%;
 	height: auto;
 	margin: 0 auto;
