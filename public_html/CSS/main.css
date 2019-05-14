@@ -98,8 +98,8 @@
             img{
                 position: relative;
                 right: 0px;
-                height: 30%;
-                width: 30%;
+                height: auto;
+                width: auto;
             }
             img:hover {opacity: 0.7;}
             
